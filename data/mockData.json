@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "currentMonth": "July",
+        "currentWeek": 3,
+        "lastUpdated": "2026-07-22",
+        "budgetVersion": "2.0"
+    },
+
+    "dashboard": {
+
+        "financialHealth": {
+            "score": 91,
+            "status": "Excellent",
+            "change": 3
+        },
+
+        "budget": {
+            "needs": 48.6,
+            "wants": 26.9,
+            "savings": 24.5,
+
+            "needsStatus":"success",
+            "wantsStatus":"success",
+            "savingsStatus":"success"
+        },
+
+        "purchaseFunds":[
+
+            {
+                "id":"fund1",
+                "name":"Laptop",
+                "goal":3000,
+                "current":2220,
+                "progress":74
+            },
+
+            {
+                "id":"fund2",
+                "name":"Vacation",
+                "goal":800,
+                "current":350,
+                "progress":44
+            }
+
+        ],
+
+        "weeklyBudget":[
+
+            {
+                "category":"Eating Out",
+                "remaining":43,
+                "status":"success"
+            },
+
+            {
+                "category":"Alcohol",
+                "remaining":28,
+                "status":"warning"
+            }
+
+        ],
+
+        "insights":[
+
+            {
+                "type":"success",
+                "message":"Laptop fund is ahead of schedule."
+            },
+
+            {
+                "type":"warning",
+                "message":"Restaurant spending is trending upward."
+            }
+
+        ]
+    }
+}
