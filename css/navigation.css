@@ -16,3 +16,53 @@ cursor:pointer;
 display:none;
 
 }
+
+.side-menu{
+
+position:fixed;
+
+top:0;
+
+left:-260px;
+
+height:100vh;
+
+width:240px;
+
+background:#16213A;
+
+padding-top:80px;
+
+transition:.3s;
+
+box-shadow:0 0 25px rgba(0,0,0,.4);
+
+z-index:999;
+
+}
+
+.side-menu.open{
+
+left:0;
+
+}
+
+.side-menu a{
+
+display:block;
+
+padding:18px 25px;
+
+color:white;
+
+text-decoration:none;
+
+transition:.2s;
+
+}
+
+.side-menu a:hover{
+
+background:#24324A;
+
+}
