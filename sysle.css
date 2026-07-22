@@ -1,0 +1,65 @@
+/* ==========================================
+   BudgetOS Theme
+========================================== */
+
+:root{
+
+    --bg:#0F172A;
+
+    --surface:#16213A;
+
+    --surface-hover:#1E2C4A;
+
+    --primary:#3B82F6;
+
+    --success:#22C55E;
+
+    --warning:#FBBF24;
+
+    --danger:#EF4444;
+
+    --text:#F8FAFC;
+
+    --subtext:#94A3B8;
+
+    --border:#24324A;
+
+    --radius:20px;
+
+    --shadow:0 10px 28px rgba(0,0,0,.35);
+
+    --transition:.25s ease;
+
+    --spacing:20px;
+
+}
+
+
+
+/* ========================================== */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+
+
+body{
+
+background:var(--bg);
+
+color:var(--text);
+
+font-family:
+Inter,
+Segoe UI,
+Arial,
+sans-serif;
+
+}
