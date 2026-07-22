@@ -64,17 +64,17 @@ margin-top:8px;
 }
 .progress-fill{
 
-width:70%;
-
 height:100%;
+
+width:0%;
+
+transition:1s ease;
 
 background:linear-gradient(
 90deg,
 #2563EB,
 #3B82F6
 );
-
-border-radius:20px;
 
 }
 .fund{
