@@ -87,12 +87,28 @@ ${health.status}
 
 }
 
-/*function renderBudget(){
-  const card = document.getElementById('budget');
-  card.innHTML = 
+/*function renderpurchaseFunds(){
+cosnt card = document.getElementById('purchaseFunds');
+purchaseFunds.forEach()
+card.innerHTML = ...
+}
+
+function renderWeeklyBudget(){
+cosnt card = document.getElementById('weeklyBudget');
+card.innerHTML = ...
+}
+
+function renderNetWorth(){
+  const card = document.getElementById('netWorth');
+  card.innerHTML = 
     <h2> hih</h2>
   ;}
-
-function renderpurchaseFunds(){
-  purchaseFunds.forEach()
-}*/
+function renderCatBreakdown(){
+cosnt card = document.getElementById('catBreakdown');
+card.innerHTML = ...
+}
+function renderInsights(){
+cosnt card = document.getElementById('insights');
+card.innerHTML = ...
+}
+*/
