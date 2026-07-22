@@ -1,23 +1,15 @@
-const button =
-document.querySelector(
-".menu-button"
-);
+document.addEventListener("DOMContentLoaded", ()=>{
 
-const menu =
-document.querySelector(
-".side-menu"
-);
+    const button =
+        document.querySelector(".menu-button");
 
-button.addEventListener(
+    const menu =
+        document.querySelector(".side-menu");
 
-"click",
+    button.addEventListener("click",()=>{
 
-()=>{
+        menu.classList.toggle("open");
 
-menu.classList.toggle(
-"open"
-);
+    });
 
-}
-
-);
+});
