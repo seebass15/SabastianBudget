@@ -1,27 +1,16 @@
 document.addEventListener(
 "DOMContentLoaded",
-
 async ()=>{
-
-const data = await loadData();
-
-animateProgressBars(data);
-
-});
-
-function animateProgressBars(data){
-
-const fills =
-document.querySelectorAll(
-".progress-fill"
+    const data = await loadData();
+    animateProgressBars(data);
+}
 );
 
-fills.forEach((fill,index)=>{
-
-fill.style.width =
-data.dashboard.purchaseFunds[index].progress+"%";
-
-});
+function animateProgressBars(data){
+const fills = document.querySelectorAll(".progress-fill");
+    fills.forEach((fill,index)=>{
+        fill.style.width = data.dashboard.purchaseFunds[index].progress+"%";
+    });
 
 }
 
@@ -32,8 +21,8 @@ function renderDashboard(data){
         data.dashboard.financialHealth
     );
 
-    renderBudget(
-        data.dashboard.budget
+    renderNeedsWants(
+        data.dashboard.needsWants
     );
 
     renderPurchaseFunds(
@@ -43,6 +32,10 @@ function renderDashboard(data){
     renderWeeklyBudget(
         data.dashboard.weeklyBudget
     );
+
+    renderNetWorth(data.dashboard.netWorth);
+
+    renderCatBreakdown(data.dashboard.catBreakdown);
 
     renderInsights(
         data.dashboard.insights
@@ -87,7 +80,12 @@ ${health.status}
 
 }
 
-/*function renderpurchaseFunds(){
+/*function renderNeedsWants(savings){
+const card = document.getElementById('needsWants');
+card.innerHTML = ...;
+}
+
+function renderpurchaseFunds(funds){
 cosnt card = document.getElementById('purchaseFunds');
 purchaseFunds.forEach()
 card.innerHTML = ...
