@@ -14,14 +14,19 @@
             "change": 3
         },
 
-        "budget": {
-            "needs": 48.6,
-            "wants": 26.9,
-            "savings": 24.5,
-
-            "needsStatus":"success",
-            "wantsStatus":"success",
-            "savingsStatus":"success"
+        "status":{
+            "needs": {
+                "percent": 48.6,
+                "status": "success"
+            },
+            "wants":{
+                "percent": 26.9,
+                "status": "success"
+            }
+            "savings":{
+                "percent": 24.5,
+                "status": "success"
+            }
         },
 
         "purchaseFunds":[
@@ -31,15 +36,21 @@
                 "name":"Laptop",
                 "goal":3000,
                 "current":2220,
-                "progress":74
+                "progress":74,
+                "targetDate":"2026-10-01",
+                "monthlyContribution":130,
+                "status":"ahead"
             },
 
             {
                 "id":"fund2",
-                "name":"Vacation",
-                "goal":800,
-                "current":350,
-                "progress":44
+                "name":"Vacaction",
+                "goal":4000,
+                "current":200,
+                "progress":20,
+                "targetDate":"2027-10-01",
+                "monthlyContribution":90,
+                "status":"behind"
             }
 
         ],
@@ -48,30 +59,90 @@
 
             {
                 "category":"Eating Out",
+
+                "budget":85,
+
+                "spent":42,
+
                 "remaining":43,
+
+                "carryForward":15,
+
+                "nextWeekBudget":100,
+
                 "status":"success"
             },
 
             {
-                "category":"Alcohol",
-                "remaining":28,
-                "status":"warning"
+                "category":"Eating Out2",
+
+                "budget":85,
+
+                "spent":42,
+
+                "remaining":43,
+
+                "carryForward":15,
+
+                "nextWeekBudget":100,
+
+                "status":"success"
             }
 
         ],
+        
+        "netWorth":{
+            "current":18235,
+            "history":[
+                {
+                    "month":"Jan",
+                    "value":14200
+                },
+                {
+                    "month":"Feb",
+                    "value":15020
+                }
+            ]
+        },
+
+        "catBreakdown":{
+            {
+                "category":"Groceries",
+                "amount":320
+            },
+        
+            {
+                "category":"Eating Out",
+                "amount":170
+            },
+        
+            {
+                "category":"Gas",
+                "amount":95
+            }
+        },
 
         "insights":[
 
             {
-                "type":"success",
-                "message":"Laptop fund is ahead of schedule."
+                "priority":2,
+            
+                "type":"warning",
+            
+                "title":"Restaurants",
+            
+                "message":"Reduce spending by $45 this month."
             },
 
             {
+                "priority":2,
+            
                 "type":"warning",
-                "message":"Restaurant spending is trending upward."
+            
+                "title":"Restaurants",
+            
+                "message":"Reduce spending by $45 this month."
             }
-
         ]
     }
 }
