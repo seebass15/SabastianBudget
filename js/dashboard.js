@@ -80,7 +80,7 @@ ${health.status}
 
 }
 
-function renderNeedsWants(savings){
+function renderStatus(savings){
 const card = document.getElementById('status');
 card.innerHTML = 
 <h2>
