@@ -21,8 +21,8 @@ function renderDashboard(data){
         data.dashboard.financialHealth
     );
 
-    renderNeedsWants(
-        data.dashboard.needsWants
+    renderStatus(
+        data.dashboard.status
     );
 
     renderPurchaseFunds(
