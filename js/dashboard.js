@@ -25,9 +25,9 @@ function renderDashboard(data){
         data.dashboard.status
     );
 
-    renderPurchaseFunds(
+    /*renderPurchaseFunds(
         data.dashboard.purchaseFunds
-    );
+    );*/
 
     renderWeeklyBudget(
         data.dashboard.weeklyBudget
@@ -124,7 +124,7 @@ card.innerHTML =
             ;
 }
 
-function renderpurchaseFunds(funds){
+/*function renderpurchaseFunds(funds){
 cosnt card = document.getElementById('purchaseFunds');
 purchaseFunds.forEach()
 card.innerHTML = 
@@ -151,7 +151,7 @@ card.innerHTML =
             </div>
             ;
 }
-
+*/
 function renderWeeklyBudget(){
 cosnt card = document.getElementById('weeklyBudget');
 card.innerHTML = 
