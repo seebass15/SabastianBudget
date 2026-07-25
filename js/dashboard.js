@@ -80,20 +80,108 @@ ${health.status}
 
 }
 
-/*function renderNeedsWants(savings){
-const card = document.getElementById('needsWants');
-card.innerHTML = ...;
+function renderNeedsWants(savings){
+const card = document.getElementById('status');
+card.innerHTML = 
+<h2>
+            50 / 30 / 20
+            </h2>
+            
+            <div class="budget-row">
+                <span>
+                Needs
+                </span>
+                
+                <span>
+                48.6% ✓
+                </span>
+                
+            </div>
+            
+            <div class="budget-row">
+                
+                <span>
+                Wants
+                </span>
+                
+                <span>
+                26.9% ✓
+                </span>
+            
+            </div>
+
+            <div class="budget-row">
+            
+            <span>
+            Savings
+            </span>
+            
+            <span>
+            24.5% ✓
+            </span>
+            
+            </div>
+            ;
 }
 
 function renderpurchaseFunds(funds){
 cosnt card = document.getElementById('purchaseFunds');
 purchaseFunds.forEach()
-card.innerHTML = ...
+card.innerHTML = 
+<h2>
+            Purchase Funds
+            </h2>
+            
+            <div class="fund">
+                Laptop
+            
+                <div class="progress">
+                <div class="progress-fill"></div>
+                
+                </div>
+                
+            </div>
+            
+            <div class="fund">
+                Vacation
+                <div class="progress">
+                    <div class="progress-fill"></div>
+                </div>
+            
+            </div>
+            ;
 }
 
 function renderWeeklyBudget(){
 cosnt card = document.getElementById('weeklyBudget');
-card.innerHTML = ...
+card.innerHTML = 
+<h2>
+            Weekly Budget
+            </h2>
+            
+            
+            <div class="budget-row">
+                <span>
+                Eating Out
+                </span>
+                
+                <span>
+                $43 left
+                </span>
+            
+            </div>
+        
+            <div class="budget-row">
+                <span>
+                Alcohol
+                </span>
+                
+                <span>
+                $28 left
+                </span>
+            
+            </div>
+            ;
 }
 
 function renderNetWorth(){
@@ -103,10 +191,10 @@ function renderNetWorth(){
   ;}
 function renderCatBreakdown(){
 cosnt card = document.getElementById('catBreakdown');
-card.innerHTML = ...
+card.innerHTML = <h2>poop</h2>;
 }
 function renderInsights(){
 cosnt card = document.getElementById('insights');
-card.innerHTML = ...
+card.innerHTML = <h2>insight</h2>;
 }
-*/
+
