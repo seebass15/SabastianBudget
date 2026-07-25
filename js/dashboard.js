@@ -81,7 +81,7 @@ ${health.status}
 }
 
 function renderStatus(savings){
-const card = document.getElementById('status');
+const card = document.getElementById("status");
 card.innerHTML = 
 <h2>
             50 / 30 / 20
