@@ -70,8 +70,8 @@ ${health.status}
 
 function renderStatus(savings){
 const card = document.getElementById("status");
-card.innerHTML = 
-`<h2>
+card.innerHTML = `
+<h2>
             50 / 30 / 20
             </h2>
             
@@ -142,8 +142,8 @@ card.innerHTML =
 */
 function renderWeeklyBudget(){
 cosnt card = document.getElementById('weeklyBudget');
-card.innerHTML = 
-`<h2>
+card.innerHTML = `
+<h2>
             Weekly Budget
             </h2>
             
