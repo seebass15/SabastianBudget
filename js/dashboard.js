@@ -71,7 +71,7 @@ ${health.status}
 function renderStatus(savings){
 const card = document.getElementById("status");
 card.innerHTML = 
-'<h2>
+`<h2>
             50 / 30 / 20
             </h2>
             
@@ -109,14 +109,14 @@ card.innerHTML =
             </span>
             
             </div>
-            ';
+            `;
 }
 
 /*function renderpurchaseFunds(funds){
 cosnt card = document.getElementById('purchaseFunds');
 purchaseFunds.forEach()
 card.innerHTML = 
-'<h2>
+`<h2>
             Purchase Funds
             </h2>
             
@@ -137,13 +137,13 @@ card.innerHTML =
                 </div>
             
             </div>
-            ';
+            `;
 }
 */
 function renderWeeklyBudget(){
 cosnt card = document.getElementById('weeklyBudget');
 card.innerHTML = 
-'<h2>
+`<h2>
             Weekly Budget
             </h2>
             
@@ -169,20 +169,20 @@ card.innerHTML =
                 </span>
             
             </div>
-            ';
+            `;
 }
 
 function renderNetWorth(){
   const card = document.getElementById('netWorth');
   card.innerHTML = 
-    '<h2> hih</h2>'
+    `<h2> hih</h2>`
   ;}
 function renderCatBreakdown(){
 cosnt card = document.getElementById('catBreakdown');
-card.innerHTML = '<h2>poop</h2>';
+card.innerHTML = `<h2>poop</h2>`;
 }
 function renderInsights(){
 cosnt card = document.getElementById('insights');
-card.innerHTML = '<h2>insight</h2>';
+card.innerHTML = `<h2>insight</h2>`;
 }
 
