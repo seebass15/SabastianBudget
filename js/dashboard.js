@@ -2,17 +2,17 @@ document.addEventListener(
 "DOMContentLoaded",
 async ()=>{
     const data = await loadData();
-    animateProgressBars(data);
+    renderDashboard(data);
 }
 );
 
-function animateProgressBars(data){
+/*function animateProgressBars(data){
 const fills = document.querySelectorAll(".progress-fill");
     fills.forEach((fill,index)=>{
         fill.style.width = data.dashboard.purchaseFunds[index].progress+"%";
     });
 
-}
+}*/
 
 
 function renderDashboard(data){
@@ -25,9 +25,9 @@ function renderDashboard(data){
         data.dashboard.status
     );
 
-    /*renderPurchaseFunds(
+    renderPurchaseFunds(
         data.dashboard.purchaseFunds
-    );*/
+    );
 
     renderWeeklyBudget(
         data.dashboard.weeklyBudget
@@ -112,9 +112,9 @@ card.innerHTML = `
             `;
 }
 
-/*function renderpurchaseFunds(funds){
+function renderPurchaseFunds(funds){
 const card = document.getElementById('purchaseFunds');
-purchaseFunds.forEach()
+/*purchaseFunds.forEach()*/
 card.innerHTML = 
 `<h2>
             Purchase Funds
@@ -139,7 +139,7 @@ card.innerHTML =
             </div>
             `;
 }
-*/
+
 function renderWeeklyBudget(){
 const card = document.getElementById('weeklyBudget');
 card.innerHTML = `
@@ -177,10 +177,12 @@ function renderNetWorth(){
   card.innerHTML = 
     `<h2> hih</h2>`
   ;}
+
 function renderCatBreakdown(){
 const card = document.getElementById('catBreakdown');
 card.innerHTML = `<h2>poop</h2>`;
 }
+
 function renderInsights(){
 const card = document.getElementById('insights');
 card.innerHTML = `<h2>insight</h2>`;
