@@ -113,7 +113,7 @@ card.innerHTML = `
 }
 
 /*function renderpurchaseFunds(funds){
-cosnt card = document.getElementById('purchaseFunds');
+const card = document.getElementById('purchaseFunds');
 purchaseFunds.forEach()
 card.innerHTML = 
 `<h2>
@@ -141,7 +141,7 @@ card.innerHTML =
 }
 */
 function renderWeeklyBudget(){
-cosnt card = document.getElementById('weeklyBudget');
+const card = document.getElementById('weeklyBudget');
 card.innerHTML = `
 <h2>
             Weekly Budget
@@ -178,11 +178,11 @@ function renderNetWorth(){
     `<h2> hih</h2>`
   ;}
 function renderCatBreakdown(){
-cosnt card = document.getElementById('catBreakdown');
+const card = document.getElementById('catBreakdown');
 card.innerHTML = `<h2>poop</h2>`;
 }
 function renderInsights(){
-cosnt card = document.getElementById('insights');
+const card = document.getElementById('insights');
 card.innerHTML = `<h2>insight</h2>`;
 }
 
