@@ -147,7 +147,7 @@ weekly.forEach(week =>{
             
             </div>
             `;
-}
+})
 }
 
 function renderNetWorth(worth){
