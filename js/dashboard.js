@@ -81,7 +81,7 @@ card.innerHTML = `
                 </span>
                 
                 <span>
-                $(savings.needs.percent) ✓
+                ${savings.needs.percent} ✓
                 </span>
                 
             </div>
