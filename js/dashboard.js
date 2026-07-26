@@ -142,7 +142,7 @@ weekly.forEach(week =>{
                 </span>
                 
                 <span>
-                $ ${week.remanining} left
+                $ ${week.remaining} left
                 </span>
             
             </div>
