@@ -148,6 +148,7 @@ weekly.forEach(week =>{
             </div>
             `;
 }
+}
 
 function renderNetWorth(worth){
   const card = document.getElementById('netWorth');
