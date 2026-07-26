@@ -93,8 +93,9 @@ card.innerHTML = `
                 </span>
                 
                 <span>
-                26.9% ✓
+                ${savings.wants.percent}✓
                 </span>
+                
             
             </div>
 
@@ -105,7 +106,7 @@ card.innerHTML = `
             </span>
             
             <span>
-            24.5% ✓
+            ${savings.savings.percent}✓
             </span>
             
             </div>
@@ -121,7 +122,7 @@ card.innerHTML =
             </h2>
             
             <div class="fund">
-                Laptop
+                ${funds.name}
             
                 <div class="progress">
                 <div class="progress-fill"></div>
