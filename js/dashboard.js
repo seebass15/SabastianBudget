@@ -119,7 +119,7 @@ let myHTML = `<h2>Purchase Funds</h2>`;
     funds.forEach(fund =>{
         myHTML += `            
             <div class="fund">
-                ${funds.name}
+                ${fund.name}
             
                 <div class="progress">
                 <div class="progress-fill"></div>
