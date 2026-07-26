@@ -115,12 +115,9 @@ card.innerHTML = `
 
 function renderPurchaseFunds(funds){
 const card = document.getElementById('purchaseFunds');
-/*purchaseFunds.forEach()*/
-card.innerHTML = 
-`<h2>
-            Purchase Funds
-            </h2>
-            
+let myHTML = `<h2>Purchase Funds</h2>`;
+    funds.forEach(fund =>{
+        myHTML += `            
             <div class="fund">
                 ${funds.name}
             
@@ -138,7 +135,8 @@ card.innerHTML =
                 </div>
             
             </div>
-            `;
+        `;});
+        card.innerHTML = myHTML;
 }
 
 function renderWeeklyBudget(weekly){
