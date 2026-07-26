@@ -161,7 +161,7 @@ const card = document.getElementById('catBreakdown');
 let myHTML = `<h2>Expenses by Category</h2>`;
     breakdown.forEach(cat =>{
         myHTML += `<div>${breakdown.cat.category}</div>`;
-}
+})
 }
 
 function renderInsights(insights){
@@ -169,6 +169,6 @@ const card = document.getElementById('insights');
 let myHTML = `<h2>insight</h2>`;
     insights.forEach.(insight =>{
         myHTML += `<h1>hi</h1>`;
-}
+})
 }
 
