@@ -147,7 +147,8 @@ weekly.forEach(week =>{
             
             </div>
             `;
-})
+});
+    card.innerHTML = myHTML;
 }
 
 function renderNetWorth(worth){
@@ -161,7 +162,8 @@ const card = document.getElementById('catBreakdown');
 let myHTML = `<h2>Expenses by Category</h2>`;
     breakdown.forEach(cat =>{
         myHTML += `<div>${breakdown.cat.category}</div>`;
-})
+});
+    card.innerHTML = myHTML;
 }
 
 function renderInsights(insights){
@@ -169,6 +171,7 @@ const card = document.getElementById('insights');
 let myHTML = `<h2>insight</h2>`;
     insights.forEach.(insight =>{
         myHTML += `<h1>hi</h1>`;
-})
+    });
+    card.innerHTML = myHTML;
 }
 
