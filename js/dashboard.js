@@ -141,7 +141,7 @@ card.innerHTML =
             `;
 }
 
-function renderWeeklyBudget(){
+function renderWeeklyBudget(weekly){
 const card = document.getElementById('weeklyBudget');
 card.innerHTML = `
 <h2>
@@ -155,7 +155,7 @@ card.innerHTML = `
                 </span>
                 
                 <span>
-                $43 left
+                $ ${weekly.reamining) left
                 </span>
             
             </div>
@@ -173,18 +173,18 @@ card.innerHTML = `
             `;
 }
 
-function renderNetWorth(){
+function renderNetWorth(worth){
   const card = document.getElementById('netWorth');
   card.innerHTML = 
     `<h2> hih</h2>`
   ;}
 
-function renderCatBreakdown(){
+function renderCatBreakdown(breakdown){
 const card = document.getElementById('catBreakdown');
 card.innerHTML = `<h2>poop</h2>`;
 }
 
-function renderInsights(){
+function renderInsights(insights){
 const card = document.getElementById('insights');
 card.innerHTML = `<h2>insight</h2>`;
 }
