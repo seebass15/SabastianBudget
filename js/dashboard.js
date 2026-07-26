@@ -153,7 +153,7 @@ card.innerHTML = `
                 </span>
                 
                 <span>
-                $ ${weekly.reamining) left
+                $ ${weekly.reamining} left
                 </span>
             
             </div>
