@@ -11,7 +11,7 @@
         "financialHealth": {
             "score": 91,
             "status": "Excellent",
-            "change": 3
+            "change": 3,
             "trend": "success"
         },
 
