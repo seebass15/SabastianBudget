@@ -9,24 +9,24 @@
     "dashboard": {
 
         "financialHealth": {
-            "score": 91,
-            "status": "Excellent",
-            "change": 3,
-            "trend": "success"
+            "score": 61,
+            "status": "shitty",
+            "change": 2,
+            "trend": "warning"
         },
 
         "status":{
             "needs": {
-                "percent": 48.6,
-                "status": "success"
+                "percent": 34.6,
+                "status": "danger"
             },
             "wants":{
-                "percent": 26.9,
+                "percent": 34,
                 "status": "success"
             },
             "savings":{
-                "percent": 24.5,
-                "status": "success"
+                "percent": 99,
+                "status": "info"
             }
         },
 
@@ -34,7 +34,7 @@
 
             {
                 "id":"fund1",
-                "name":"Laptop",
+                "name":"boat",
                 "goal":3000,
                 "current":2220,
                 "progress":74,
@@ -45,7 +45,7 @@
 
             {
                 "id":"fund2",
-                "name":"Vacaction",
+                "name":"Italia",
                 "goal":4000,
                 "current":200,
                 "progress":20,
@@ -59,13 +59,13 @@
         "weeklyBudget":[
 
             {
-                "category":"Eating Out",
+                "category":"subscriptions",
 
                 "budget":85,
 
                 "spent":42,
 
-                "remaining":43,
+                "remaining":77,
 
                 "carryForward":15,
 
@@ -75,13 +75,13 @@
             },
 
             {
-                "category":"Eating Out2",
+                "category":"bussy",
 
                 "budget":85,
 
                 "spent":42,
 
-                "remaining":43,
+                "remaining":99,
 
                 "carryForward":15,
 
@@ -108,17 +108,17 @@
 
         "catBreakdown": [
             {
-                "category":"Groceries",
+                "category":"oakley",
                 "amount":320
             },
         
             {
-                "category":"Eating Out",
+                "category":"Out",
                 "amount":170
             },
         
             {
-                "category":"Gas",
+                "category":"Gassssss",
                 "amount":95
             }
         ],
