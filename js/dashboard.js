@@ -127,44 +127,22 @@ let myHTML = `<h2>Purchase Funds</h2>`;
                 </div>
                 
             </div>
-            
-            <div class="fund">
-                Vacation
-                <div class="progress">
-                    <div class="progress-fill"></div>
-                </div>
-            
-            </div>
         `;});
         card.innerHTML = myHTML;
 }
 
 function renderWeeklyBudget(weekly){
 const card = document.getElementById('weeklyBudget');
-card.innerHTML = `
-<h2>
-            Weekly Budget
-            </h2>
-            
-            
+let myHTML = `<h2>Weekly Budget</h2>`;
+weekly.forEach(week =>{            
+            myHTML +=`
             <div class="budget-row">
                 <span>
-                Eating Out
+                ${week.category}
                 </span>
                 
                 <span>
-                $ ${weekly.reamining} left
-                </span>
-            
-            </div>
-        
-            <div class="budget-row">
-                <span>
-                Alcohol
-                </span>
-                
-                <span>
-                $28 left
+                $ ${week.reamining} left
                 </span>
             
             </div>
@@ -179,11 +157,17 @@ function renderNetWorth(worth){
 
 function renderCatBreakdown(breakdown){
 const card = document.getElementById('catBreakdown');
-card.innerHTML = `<h2>poop</h2>`;
+let myHTML = `<h2>Expenses by Category</h2>`;
+    breakdown.forEach(cat =>{
+        myHTML += `<div>${breakdown.cat.category}</div>`;
+}
 }
 
 function renderInsights(insights){
 const card = document.getElementById('insights');
-card.innerHTML = `<h2>insight</h2>`;
+let myHTML = `<h2>insight</h2>`;
+    insights.forEach.(insight =>{
+        myHTML += `<h1>hi</h1>`;
+}
 }
 
