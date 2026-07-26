@@ -169,7 +169,7 @@ let myHTML = `<h2>Expenses by Category</h2>`;
 function renderInsights(insights){
 const card = document.getElementById('insights');
 let myHTML = `<h2>insight</h2>`;
-    insights.forEach.(insight =>{
+    insights.forEach(insight =>{
         myHTML += `<h1>hi</h1>`;
     });
     card.innerHTML = myHTML;
