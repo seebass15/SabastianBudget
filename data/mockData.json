@@ -37,7 +37,7 @@
                 "name":"boat",
                 "goal":3000,
                 "current":2220,
-                "progress":74%,
+                "progress":74,
                 "targetDate":"2026-10-01",
                 "monthlyContribution":130,
                 "status":"ahead"
@@ -48,7 +48,7 @@
                 "name":"Italia",
                 "goal":4000,
                 "current":200,
-                "progress":20%,
+                "progress":20,
                 "targetDate":"2027-10-01",
                 "monthlyContribution":90,
                 "status":"behind"
