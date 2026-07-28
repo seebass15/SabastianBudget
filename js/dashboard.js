@@ -122,7 +122,7 @@ let myHTML = `<h2>Purchase Funds</h2>`;
                 ${fund.name}
             
                 <div class="progress">
-                <div class="progress-fill" style = "width:${fund.progress}"></div>
+                <div class="progress-fill" style = "width:${fund.progress}";></div>
                 
                 </div>
                 
