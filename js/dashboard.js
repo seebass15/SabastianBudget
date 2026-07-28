@@ -80,7 +80,7 @@ card.innerHTML = `
                 Needs
                 </span>
                 
-                <span class = "badge ${status.needs.status}">
+                <span class = "badge ${savings.needs.status}">
                 ${savings.needs.percent}
                 </span>
                 
@@ -92,7 +92,7 @@ card.innerHTML = `
                 Wants
                 </span>
                 
-                <span class = "badge ${status.wants.status}">
+                <span class = "badge ${savings.wants.status}">
                 ${savings.wants.percent}
                 </span>
                 
@@ -105,7 +105,7 @@ card.innerHTML = `
             Savings
             </span>
             
-            <span class = "badge ${status.savings.status}">
+            <span class = "badge ${savings.savings.status}">
             ${savings.savings.percent}
             </span>
             
