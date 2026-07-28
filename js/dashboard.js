@@ -153,8 +153,11 @@ weekly.forEach(week =>{
 
 function renderNetWorth(worth){
   const card = document.getElementById('netWorth');
-  card.innerHTML = 
-    `<h2> hih</h2>`
+  let myHTML = `<h2> hih</h2>`;
+    worth.history.forEach(item =>{
+    myHTML += `<span>${item.month}</span>`;
+    }
+    card.innerHTML = myHTML;
   ;}
 
 function renderCatBreakdown(breakdown){
@@ -170,7 +173,7 @@ function renderInsights(insights){
 const card = document.getElementById('insights');
 let myHTML = `<h2>insight</h2>`;
     insights.forEach(insight =>{
-        myHTML += `<h1>hi</h1>`;
+        myHTML += `<h1>hi</h1> <span>${insight.title}</span>`;
     });
     card.innerHTML = myHTML;
 }
