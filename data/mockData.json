@@ -9,24 +9,24 @@
     "dashboard": {
 
         "financialHealth": {
-            "score": 61,
-            "status": "shitty",
-            "change": 2,
-            "trend": "warning"
+            "score": 42.5,
+            "status": "Good",
+            "change": 4.2,
+            "trend": "info"
         },
 
         "status":{
             "needs": {
-                "percent": 34.6,
-                "status": "danger"
+                "percent": 12.3,
+                "status": "warning"
             },
             "wants":{
-                "percent": 34,
-                "status": "success"
+                "percent": 102.3,
+                "status": "danger"
             },
             "savings":{
-                "percent": 99,
-                "status": "info"
+                "percent": 45.34,
+                "status": "warning"
             }
         },
 
@@ -34,10 +34,10 @@
 
             {
                 "id":"fund1",
-                "name":"boat",
+                "name":"new car",
                 "goal":3000,
                 "current":2220,
-                "progress":74,
+                "progress":44.4,
                 "targetDate":"2026-10-01",
                 "monthlyContribution":130,
                 "status":"ahead"
@@ -45,10 +45,10 @@
 
             {
                 "id":"fund2",
-                "name":"Italia",
+                "name":"Irish",
                 "goal":4000,
                 "current":200,
-                "progress":20,
+                "progress":57.3,
                 "targetDate":"2027-10-01",
                 "monthlyContribution":90,
                 "status":"behind"
@@ -59,13 +59,29 @@
         "weeklyBudget":[
 
             {
-                "category":"subscriptions",
+                "category":"subs",
 
                 "budget":85,
 
                 "spent":42,
 
-                "remaining":77,
+                "remaining":45.34,
+
+                "carryForward":15,
+
+                "nextWeekBudget":100,
+
+                "status":"warning"
+            },
+
+            {
+                "category":"eating out",
+
+                "budget":85,
+
+                "spent":42,
+
+                "remaining":42.59,
 
                 "carryForward":15,
 
@@ -73,15 +89,14 @@
 
                 "status":"success"
             },
-
             {
-                "category":"bussy",
+                "category":"Alchohol",
 
                 "budget":85,
 
                 "spent":42,
 
-                "remaining":99,
+                "remaining":31.02,
 
                 "carryForward":15,
 
@@ -96,11 +111,15 @@
             "current":18235,
             "history":[
                 {
-                    "month":"Jan",
+                    "month":"January",
                     "value":14200
                 },
                 {
-                    "month":"Feb",
+                    "month":"Febuary",
+                    "value":15020
+                },
+                {
+                    "month":"March",
                     "value":15020
                 }
             ]
@@ -108,17 +127,21 @@
 
         "catBreakdown": [
             {
-                "category":"oakley",
+                "category":"car",
                 "amount":320
             },
         
             {
-                "category":"Out",
+                "category":"utilities",
                 "amount":170
             },
         
             {
-                "category":"Gassssss",
+                "category":"loans",
+                "amount":95
+            },
+            {
+                "category":"gas",
                 "amount":95
             }
         ],
@@ -130,7 +153,7 @@
             
                 "type":"warning",
             
-                "title":"Restaurants",
+                "title":"Too much money",
             
                 "message":"Reduce spending by $45 this month."
             },
@@ -140,7 +163,7 @@
             
                 "type":"warning",
             
-                "title":"Restaurants",
+                "title":"Random Expenses",
             
                 "message":"Reduce spending by $45 this month."
             }
