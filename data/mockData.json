@@ -10,9 +10,9 @@
 
         "financialHealth": {
             "score": 42.5,
-            "status": "Good",
+            "status": "Poor",
             "change": 4.2,
-            "trend": "info"
+            "trend": "danger"
         },
 
         "status":{
@@ -26,7 +26,7 @@
             },
             "savings":{
                 "percent": 45.34,
-                "status": "warning"
+                "status": "sucess"
             }
         },
 
@@ -52,7 +52,18 @@
                 "targetDate":"2027-10-01",
                 "monthlyContribution":90,
                 "status":"behind"
+            },
+            {
+                "id":"fund3",
+                "name":"Japan",
+                "goal":4000,
+                "current":200,
+                "progress":0.3,
+                "targetDate":"2027-10-01",
+                "monthlyContribution":90,
+                "status":"behind"
             }
+
 
         ],
 
