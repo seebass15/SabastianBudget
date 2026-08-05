@@ -61,7 +61,8 @@ ${health.score}
 
 <div class="health-status">
 ${health.status}
-<span class="trend up">
+myHTML = "trend "+ ${health.status};
+<span class= myHTML>
 +${health.change}
 </span>
 </div>
