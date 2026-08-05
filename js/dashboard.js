@@ -49,7 +49,7 @@ const card =
 document.getElementById(
 "financialHealth"
 );
-let myHTML = "trend " +${health.status};
+
 card.innerHTML = `
 <h2>
 Financial Health
@@ -61,7 +61,7 @@ ${health.score}
 
 <div class="health-status">
 ${health.status}
-<span class= myHTML>
+<span class= "trend ${health.status}">
 +${health.change}
 </span>
 </div>
