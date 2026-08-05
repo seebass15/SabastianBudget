@@ -10,7 +10,7 @@
 
         "financialHealth": {
             "score": 42.5,
-            "status": "Poor",
+            "status": "down",
             "change": 4.2,
             "trend": "up"
         },
