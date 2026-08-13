@@ -155,9 +155,13 @@ weekly.forEach(week =>{
 
 function renderNetWorth(worths){
   const card = document.getElementById('netWorth');
-  let myHTML = `<h2> hih</h2>`;
+  let myHTML = `<h2> Net Worth</h2>`;
     worths.history.forEach(worth =>{
-    myHTML += `<span>${worth.month}</span>`;
+    myHTML += `
+    <div>
+    <span>${worth.month}</span>
+    <span>${woth.value}</span>
+    </div>`;
     });
     card.innerHTML = myHTML;
   ;}
