@@ -120,7 +120,7 @@ let myHTML = `<h2>Purchase Funds</h2>`;
             <div class="fund">
                 <span>${fund.name}</span>
                 
-                <span class "badge ${fund.status}">
+                <span class = "badge ${fund.status}">
                 ${fund.status}
                 </span>
                 <div class="progress">
