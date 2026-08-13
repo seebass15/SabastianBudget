@@ -160,7 +160,7 @@ function renderNetWorth(worths){
     myHTML += `
     <div>
     <span>${worth.month}</span>
-    <span>${worth.value}</span>
+    <span>$ ${worth.value}</span>
     </div>`;
     });
     card.innerHTML = myHTML;
