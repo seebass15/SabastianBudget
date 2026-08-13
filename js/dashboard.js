@@ -118,8 +118,11 @@ let myHTML = `<h2>Purchase Funds</h2>`;
     funds.forEach(fund =>{
         myHTML += `            
             <div class="fund">
-                ${fund.name}
-            
+                <span>${fund.name}</span>
+                
+                <span class "badge ${fund.status}">
+                ${fund.status}
+                </span>
                 <div class="progress">
                 <div class="progress-fill" style = "width:${fund.progress}%";></div>
                 
