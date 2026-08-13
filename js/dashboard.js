@@ -170,7 +170,10 @@ function renderCatBreakdown(breakdown){
 const card = document.getElementById('catBreakdown');
 let myHTML = `<h2>Expenses by Category</h2>`;
     breakdown.forEach(cat =>{
-        myHTML += `<div>${cat.category}</div>`;
+        myHTML += `<div class = "budget-row">
+            <span>${cat.category}</span>
+            <span>${cat.amount}</span>
+        </div>`;
 });
     card.innerHTML = myHTML;
 }
