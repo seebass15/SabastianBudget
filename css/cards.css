@@ -162,7 +162,7 @@ margin-right:8px;
 }
 
 
-.trend{
+.trend, .fund-status {
 
 display:inline-flex;
 
@@ -175,31 +175,75 @@ border-radius:999px;
 font-size:.8rem;
 
 }
-.trend.up{
 
-background:#12351F;
+/* =========================
+   Financial Health
+   ========================= */
 
-color:#4ADE80;
-
+.trend.excellent {
+    color: #4ade80;
+    background: rgba(74, 222, 128, 0.15);
 }
-.trend.up::before{
 
-content:"▲";
-
-margin-right:6px;
-
+.trend.excellent::before {
+    content: "↑";
 }
-.trend.down{
 
-background:#4A1D1D;
-
-color:#F87171;
-
+.trend.good {
+    color: #86efac;
+    background: rgba(134, 239, 172, 0.15);
 }
-.trend.down::before{
 
-content:"▼";
+.trend.good::before {
+    content: "↑";
+}
 
-margin-right:6px;
+.trend.fair {
+    color: #facc15;
+    background: rgba(250, 204, 21, 0.15);
+}
 
+.trend.fair::before {
+    content: "!";
+}
+
+.trend.poor {
+    color: #f87171;
+    background: rgba(248, 113, 113, 0.15);
+}
+
+.trend.poor::before {
+    content: "↓";
+}
+
+
+/* =========================
+   Purchase Fund Status
+   ========================= */
+
+.fund-status.ahead {
+    color: #4ade80;
+    background: rgba(74, 222, 128, 0.15);
+}
+
+.fund-status.ahead::before {
+    content: "↑";
+}
+
+.fund-status.onTrack {
+    color: #60a5fa;
+    background: rgba(96, 165, 250, 0.15);
+}
+
+.fund-status.onTrack::before {
+    content: "✓";
+}
+
+.fund-status.behind {
+    color: #facc15;
+    background: rgba(250, 204, 21, 0.15);
+}
+
+.fund-status.behind::before {
+    content: "!";
 }
